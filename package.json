@@ -1,0 +1,24 @@
+{
+  "name": "buildr",
+  "version": "1.0.0",
+  "description": "A mobile web app for swiping through building images",
+  "main": "app.js",
+  "scripts": {
+    "generate-images": "node generate-images.js",
+    "start": "npx http-server -o"
+  },
+  "keywords": [
+    "buildings",
+    "swipe",
+    "mobile",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.11.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
